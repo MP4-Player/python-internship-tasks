@@ -57,6 +57,10 @@ Exercises following Tariq Rashid's book *Make Your Own Neural Network*: a three-
 
 The notebooks based on the book's code keep its original attribution; the book's code is published by its author under the GPLv2 license.
 
+### Learning materials
+
+`neural-network-book/learning-materials/numbers-classification-pytorch-for-beginners.ipynb` is a **third-party Kaggle notebook** (Digit Recognizer competition) that I studied while learning PyTorch. It is not my work and is kept here for reference only; all credit goes to its original author on Kaggle.
+
 ## License
 
 [MIT](LICENSE)
