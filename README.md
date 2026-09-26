@@ -1,9 +1,11 @@
 # Python Internship Tasks
 
-Python practice tasks completed during my internship at **Yuzhny Gerion** («Южный Герион», MAGIKA office) in 2023.
-Each file is a standalone script; the task statement is included as a comment in the file.
+Work completed during my internship at **Yuzhny Gerion** («Южный Герион», MAGIKA office):
 
-## Tasks
+- **Python tasks** (2023): 23 standalone scripts in the repository root; the task statement is included as a comment in each file.
+- **[Neural networks from scratch](#neural-networks-from-scratch)** (2024): exercises in the `neural-network-book/` folder.
+
+## Python tasks
 
 | # | Task | Topics |
 |---|---|---|
@@ -38,6 +40,23 @@ python 7.py
 ```
 
 Most scripts read input from the console. Python 3.9+ is required (task 4 uses the dict union operator).
+
+## Neural networks from scratch
+
+Exercises following Tariq Rashid's book *Make Your Own Neural Network*: a three-layer neural network implemented with NumPy only, trained on MNIST handwritten digits.
+
+| Notebook | Content |
+|---|---|
+| `neural-network-book/1задания до нейронки.ipynb` | Python and NumPy warm-up exercises |
+| `neural-network-book/ckelet.ipynb` | Network skeleton: initialisation, weights, forward pass, training |
+| `neural-network-book/dataminist.ipynb` | Loading and normalising MNIST data, visualising digits |
+| `neural-network-book/216.ipynb` | Full pipeline, including testing on my own handwritten digit images |
+| `neural-network-book/итогиyfdthyjt.ipynb` | Final version trained on the full dataset |
+| `neural-network-book/вращайвращай.ipynb` | Data augmentation with rotated images |
+| `neural-network-book/нейросетьнаоборот.ipynb` | Backward query: generating the image the network "imagines" for each digit |
+| `neural-network-book/numbers-classification-pytorch-for-beginners.ipynb` | Digit classification with PyTorch |
+
+The notebooks based on the book's code keep its original attribution; the book's code is published by its author under the GPLv2 license.
 
 ## License
 
