@@ -54,7 +54,6 @@ Exercises following Tariq Rashid's book *Make Your Own Neural Network*: a three-
 | `neural-network-book/итогиyfdthyjt.ipynb` | Final version trained on the full dataset |
 | `neural-network-book/вращайвращай.ipynb` | Data augmentation with rotated images |
 | `neural-network-book/нейросетьнаоборот.ipynb` | Backward query: generating the image the network "imagines" for each digit |
-| `neural-network-book/numbers-classification-pytorch-for-beginners.ipynb` | Digit classification with PyTorch |
 
 The notebooks based on the book's code keep its original attribution; the book's code is published by its author under the GPLv2 license.
 
